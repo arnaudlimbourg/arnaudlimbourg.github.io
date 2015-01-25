@@ -1,0 +1,35 @@
+title: "This & that"
+description: "by arnaud"
+author: "Arnaud Limbourg"
+email: arnaud@limbourg.com
+#baseurl: "/contrast" # comment out if site is in root folder
+url: "https://arnaud.limbourg.com"
+more: "read more"
+
+permalink: /:title/
+excerpt_separator: "<!--more-->"
+
+comments:
+    disqus: "arnaudlimbourg"
+#    isso: "comments.mysite.org"
+
+style:
+#    body: "whitesmoke"
+    nav: "#181818"
+    article:
+        even: "white"
+        odd: "#222222"
+
+links:
+  - github: "https://github.com/arnaudlimbourg/"
+  - twitter: "https://twitter.com/arnaudlimbourg/"
+  - google-plus: "https://plus.google.com/+me"
+
+highlighter: "pygments"
+
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: false}}]
