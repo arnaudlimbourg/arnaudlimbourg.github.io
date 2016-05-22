@@ -5,6 +5,8 @@ email: arnaud@limbourg.com
 #baseurl: "/contrast" # comment out if site is in root folder
 url: "https://arnaud.limbourg.com"
 more: "read more"
+encoding: utf-8
+timezone: "Europe/Paris"
 
 permalink: /:title/
 excerpt_separator: "<!--more-->"
@@ -25,7 +27,7 @@ links:
   - twitter: "https://twitter.com/arnaudlimbourg/"
   - google-plus: "https://plus.google.com/+ArnaudLimbourg"
 
-highlighter: "pygments"
+highlighter: "rouge"
 
 markdown: redcarpet
 
