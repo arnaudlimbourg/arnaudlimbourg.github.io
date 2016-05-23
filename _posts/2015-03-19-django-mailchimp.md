@@ -10,7 +10,7 @@ One important thing to note is mailchimp python package code is generated and is
 
 A simple example to add a user to a mailing-list with additionnal merge vars looks like the following. Hopefully it will help and put you on the right track.
 
-````python
+```python
 from django.conf import settings
 
 
